@@ -64,10 +64,6 @@ pub struct PoolConfig {
 
 impl PoolConfig {
     /// Creates a new instance of the [`PoolConfig`].
-    ///
-    /// # Panics
-    ///
-    /// Panics if `coinbase_reward_script` is empty.
     #[allow(clippy::too_many_arguments)]
     pub fn new(
         pool_connection: ConnectionConfig,
